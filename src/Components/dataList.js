@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from 'arui-feather/icon/entity/person';
-import bpm from '../../assets/images/tag-button.png';
-
+import AccountDefault from 'arui-feather/icon/banking/account-default';
+import bpm from '../assets/images/tag-button.png';
 
 export const FULL_NAME = 'Фамилия Имя Отчетство тестируемого';
 export const POSITION = 'Управление разработки фронт-офисных систем / Главный программист';
@@ -13,8 +13,12 @@ export const VACATION = 'Остаток дней отпуска';
 export const SUPERVISOR = 'Непосредственный руководитель';
 export const FUNC_SUPERVISOR = 'Функциональный руководитель';
 export const AFFILATION = 'Принадлежность к команде agile/wf';
+export const PROJECT = 'Проект';
+export const ROLE = 'Роль';
+export const PERCENTAGE = 'Процент участия';
+export const OWNER = 'PO/PM';
 
-export const ProfileData = [
+export const EmployeeDataList = [
     {
         label: "Работает",
     },
@@ -42,5 +46,32 @@ export const ProfileData = [
             {'      '}
             <img src={bpm} height='20px' />
         </div>
+    },
+];
+
+export const ProjectDataList = [
+    {
+        label: "СЭД BPM",
+    },
+    {
+        label: "Frontend",
+    },
+    {
+        label: "50%",
+    },
+    {
+        label: "Фамилия Имя Отчество тестируемого",
+        icon: <Icon name='person' size='s'/>
+    },
+];
+
+export const TabComponentData = [
+    {
+        label: "Получить справку о чем-то",
+        icon: <Icon name='account-default' size='s'/>
+    },
+    {
+        label: "Запросить помощь службы поддержки",
+        icon: <Icon name='account-default' size='s'/>
     },
 ];
