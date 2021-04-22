@@ -9,14 +9,14 @@ function App() {
     return (
         <div className="App">
             <Sidebar/>
-            <div className='body'>
+            <main>
                 <div className="container">
                     <ProfileHeader/>
                     <hr className='line' />
                     <EmployeeData />
                     <ProjectData />
                 </div>
-            </div>
+            </main>
         </div>
     );
 }
