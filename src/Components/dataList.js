@@ -20,27 +20,34 @@ export const OWNER = 'PO/PM';
 
 export const EmployeeDataList = [
     {
-        label: "Работает",
+        label: STATUS,
+        value: "Работает",
     },
     {
-        label: "24.10.1997 г.",
+        label: BIRTHDATE,
+        value: "24.10.1997 г.",
     },
     {
-        label: "23.10.2020 г.",
+        label: ADMISSION_DATE,
+        value: "23.10.2020 г.",
     },
     {
-        label: "14 дней",
+        label: VACATION,
+        value: "14 дней",
     },
     {
-        label: "Фамилия Имя Отчество тестируемого",
+        label: SUPERVISOR,
+        value: "Фамилия Имя Отчество тестируемого",
         icon: <Icon name='person' size='s'/>
     },
     {
-        label: "Фамилия Имя Отчество тестируемого",
+        label: FUNC_SUPERVISOR,
+        value: "Фамилия Имя Отчество тестируемого",
         icon: <Icon name='person' size='s'/>
     },
     {
-        label: "",
+        label: AFFILATION,
+        value: "",
         icon: <div>
             <img src={bpm} height='20px' />
             {'      '}
@@ -51,16 +58,20 @@ export const EmployeeDataList = [
 
 export const ProjectDataList = [
     {
-        label: "СЭД BPM",
+        label: PROJECT,
+        value: "СЭД BPM",
     },
     {
-        label: "Frontend",
+        label: ROLE,
+        value: "Frontend",
     },
     {
-        label: "50%",
+        label: PERCENTAGE,
+        value: "50%",
     },
     {
-        label: "Фамилия Имя Отчество тестируемого",
+        label: OWNER,
+        value: "Фамилия Имя Отчество тестируемого",
         icon: <Icon name='person' size='s'/>
     },
 ];

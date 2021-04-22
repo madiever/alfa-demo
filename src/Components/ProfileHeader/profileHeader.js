@@ -2,7 +2,6 @@ import React from "react";
 import Heading from 'arui-feather/heading';
 import {ProfileImage} from "./profileImage";
 import {ProfileInfo} from "./profileInfo";
-import {EmployeeData} from "../EmployeeData/employeeData";
 
 export default function ProfileHeader() {
     return (

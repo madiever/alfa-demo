@@ -1,26 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   width: 100vw;
   height: 100vh;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+.body {
+  height: 100%;
+  margin-left: 250px;
 }
 
-.body {
-  flex-direction: column;
-  position: absolute;
-  width: 70%;
-  height: 100%;
-  left: 251px;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .Sidebar {
   position: fixed;
-  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
   width: 250px;
-  background-color: #222A32;
+  background-color: #222a32;
 }
 
 .SidebarList {
@@ -34,7 +39,6 @@ body {
   height: 60px;
   list-style-type: none;
   display: flex;
-  margin: 0%;
   flex-direction: column;
   color: white;
   justify-content: center;
@@ -43,7 +47,7 @@ body {
 
 .second {
   margin-left: 50px;
-  color: #0B1F35;
+  color: #0b1f35;
 }
 
 .SidebarList .row:hover {
@@ -52,24 +56,33 @@ body {
 
 .logo {
   margin: 30px;
-  padding-left: 10%;
+  padding-left: 10px;
 }
 
 .logo:hover {
   cursor: pointer;
 }
 
-.page {
-  display: inline-block;
-  float: left;
-  width: 130px;
+.header {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 25px;
 }
 
-.profileInfo {
-  position: absolute;
-  margin-left: 5%;
-  display: inline-block;
-  width: 70%;
+.header > .heading {
+  grid-column: 1 / -1;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center-y {
+  align-items: center;
+}
+
+.flex-center-x {
+  justify-content: center;
 }
 
 .img-holder {
@@ -87,7 +100,7 @@ body {
   border-radius: 100px;
 }
 
-#input[type='file'] {
+#input[type="file"] {
   display: none;
 }
 
@@ -100,7 +113,7 @@ body {
 
 .image-upload {
   font-family: "Segoe UI";
-  color: #0B1F35;
+  color: #0b1f35;
   border-bottom: 1px dashed rgba(11, 31, 53, 0.3);
 }
 
@@ -113,49 +126,38 @@ body {
 }
 
 .heading {
-  color: #0B1F35;
+  color: #0b1f35;
   width: 80%;
 }
 
-.header {
-  padding-left: 10vw;
-  float: left;
-  width: 70%;
-}
-
-.employee {
-  padding-left: 10vw;
-  flex-direction: row;
-  float: left;
-  width: 80%;
-}
 
 .list {
   list-style-type: none;
-  display: inline-block;
-  margin: 0%;
   color: darkgray;
   font-family: "Segoe UI";
-  width: 20vw;
 }
 
 .listItem {
   padding: 6px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project {
-  padding-left: 10vw;
-  float: left;
-  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project > .heading {
+  grid-column: 1 / -1;
 }
 
 .line {
-  color: #F4F5F6;
+  color: #f4f5f6;
   width: 90%;
 }
 
 .tabs {
-  float: right;
 }
 
 .editButton {
@@ -165,4 +167,13 @@ body {
 .actions {
   cursor: pointer;
   border-bottom: 1px solid rgba(11, 31, 53, 0.3);
+}
+
+hr {
+  display: block;
+  margin: 25px 0;
+}
+
+.tab-component {
+  margin-left: 5%;
 }

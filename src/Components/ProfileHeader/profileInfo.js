@@ -11,7 +11,7 @@ export const ProfileInfo = () => {
 
     return (
         <div className='profileInfo'>
-            <Label size='2xl'>
+            <Label size='2xl' >
                 {FULL_NAME}
                 {<div className='editButton'>
                     <IconButton onClick={toggle}>

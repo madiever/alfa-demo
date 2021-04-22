@@ -6,17 +6,19 @@ import {EmployeeData} from "./Components/EmployeeData/employeeData";
 import {ProjectData} from "./Components/ProjectData/projectData";
 
 function App() {
-  return (
-    <div className="App">
-        <Sidebar/>
-        <div className='body'>
-            <ProfileHeader/>
-            <hr className='line' />
-            <EmployeeData />
-            <ProjectData />
+    return (
+        <div className="App">
+            <Sidebar/>
+            <div className='body'>
+                <div className="container">
+                    <ProfileHeader/>
+                    <hr className='line' />
+                    <EmployeeData />
+                    <ProjectData />
+                </div>
+            </div>
         </div>
-    </div>
-  );
+    );
 }
 
 export default App;
