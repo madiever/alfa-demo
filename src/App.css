@@ -12,6 +12,7 @@
 main {
   height: 100%;
   margin-left: 250px;
+  overflow-x: hidden;
 }
 
 .container {
