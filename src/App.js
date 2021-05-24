@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from "./Components/Sidebar/sidebar";
 import ProfileHeader from "./Components/ProfileHeader/profileHeader";
+import {BirthdayBlock} from './Components/Birthday/birthdayBlock';
 import React from "react";
 import {EmployeeData} from "./Components/EmployeeData/employeeData";
 import {ProjectData} from "./Components/ProjectData/projectData";
@@ -15,6 +16,7 @@ function App() {
                     <hr className='line' />
                     <EmployeeData />
                     <ProjectData />
+                    <BirthdayBlock />
                 </div>
             </main>
         </div>

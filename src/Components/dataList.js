@@ -49,9 +49,9 @@ export const EmployeeDataList = [
         label: AFFILATION,
         value: "",
         icon: <div>
-            <img src={bpm} height='20px' />
+            <img src={bpm} height='20px'/>
             {'      '}
-            <img src={bpm} height='20px' />
+            <img src={bpm} height='20px'/>
         </div>
     },
 ];
@@ -84,5 +84,56 @@ export const TabComponentData = [
     {
         label: "Запросить помощь службы поддержки",
         icon: <Icon name='account-default' size='s'/>
+    },
+];
+
+export const EmployeeData = [
+    {
+        id: 1,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '24.05',
+        image:
+            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg',
+    },
+    {
+        id: 2,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '24.05',
+        image:
+            'https://upload.wikimedia.org/wikipedia/commons/f/f7/Anne-Marie_Rose_Nicholson%2C_2017_%28cropped%29.jpg',
+    },
+    {
+        id:3,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '24.05',
+        image:
+            'https://globalnews.ca/wp-content/uploads/2020/02/22618186.jpg?quality=85&strip=all',
+    },
+    {
+        id: 4,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '25.05',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 5,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '25.05',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 6,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '25.05',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
 ];
