@@ -11,7 +11,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     max-width: 1321px;
 }
 
@@ -22,8 +21,10 @@ body {
 }
 
 .person {
+    margin-bottom: 2%;
     font-size: 16px;
-    display: grid;
+    display: flex;
+    position: relative;
     grid-template-columns: auto 1fr;
     column-gap: 0.75rem;
     flex: 0 1 calc(100% / 3 - 15px);
@@ -36,4 +37,11 @@ body {
     height: 48px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.bubbles {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(0, -65%);
 }

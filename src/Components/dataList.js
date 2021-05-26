@@ -93,8 +93,7 @@ export const EmployeeData = [
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
         date: '24.05',
-        image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg',
+        image: '',
     },
     {
         id: 2,
@@ -105,7 +104,7 @@ export const EmployeeData = [
             'https://upload.wikimedia.org/wikipedia/commons/f/f7/Anne-Marie_Rose_Nicholson%2C_2017_%28cropped%29.jpg',
     },
     {
-        id:3,
+        id: 3,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
         date: '24.05',
@@ -117,8 +116,7 @@ export const EmployeeData = [
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
         date: '25.05',
-        image:
-            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+        image: '',
     },
     {
         id: 5,

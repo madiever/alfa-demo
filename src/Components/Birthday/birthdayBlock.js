@@ -9,7 +9,7 @@ export const BirthdayBlock = () => {
     return (
         <div className='birthdayBlock'>
             <Heading size='m'>Дни рождения сотрудников</Heading>
-            <Person people={people}/>
+                <Person people={people}/>
         </div>
     );
 }
