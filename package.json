@@ -8,10 +8,13 @@
     "@testing-library/user-event": "^12.1.10",
     "arui-feather": "^18.8.0",
     "bootstrap": "^4.6.0",
+    "lodash.chunk": "^4.2.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
+    "react-multi-carousel": "^2.6.3",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

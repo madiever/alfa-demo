@@ -9,7 +9,7 @@ body {
     margin-left: 0;
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;
     max-width: 1321px;
 }
@@ -25,7 +25,6 @@ body {
     font-size: 16px;
     display: flex;
     position: relative;
-    grid-template-columns: auto 1fr;
     column-gap: 0.75rem;
     flex: 0 1 calc(100% / 3 - 15px);
     min-height: 80px;
@@ -44,4 +43,18 @@ body {
     top: 40%;
     left: 65%;
     transform: translate(0, -65%);
+}
+
+.notBirthday {
+    display: flex;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #0B1F35;
+    opacity: 82%;
 }
