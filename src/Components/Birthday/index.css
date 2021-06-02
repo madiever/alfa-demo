@@ -6,12 +6,10 @@ body {
 }
 
 .birthdayBlock {
-    margin-left: 0;
-    margin-top: 5%;
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    max-width: 1321px;
+    max-width: 1200px;
 }
 
 .container h3 {
@@ -22,13 +20,19 @@ body {
 
 .person {
     margin-bottom: 2%;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
     font-size: 16px;
     display: flex;
     position: relative;
     column-gap: 0.75rem;
     flex: 0 1 calc(100% / 3 - 15px);
-    min-height: 80px;
-    min-width: 370px;
+    align-items: center;
+    box-shadow: 0 0 5px #c6c6c6;
+    max-width: 370px;
+    height: 80px;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
 .avatar {
@@ -40,8 +44,8 @@ body {
 
 .bubbles {
     position: absolute;
-    top: 40%;
-    left: 65%;
+    top: 61%;
+    left: 78%;
     transform: translate(0, -65%);
 }
 
