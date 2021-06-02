@@ -134,50 +134,90 @@ export const EmployeeData = [
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
-    // {
-    //     id: 7,
-    //     name: 'Байгудинова Э М',
-    //     department: 'Отдел маркетинга',
-    //     date: '24.05',
-    //     image: '',
-    // },
-    // {
-    //     id: 8,
-    //     name: 'Байгудинова Э М',
-    //     department: 'Отдел маркетинга',
-    //     date: '24.05',
-    //     image:
-    //         'https://upload.wikimedia.org/wikipedia/commons/f/f7/Anne-Marie_Rose_Nicholson%2C_2017_%28cropped%29.jpg',
-    // },
-    // {
-    //     id: 9,
-    //     name: 'Байгудинова Э М',
-    //     department: 'Отдел маркетинга',
-    //     date: '24.05',
-    //     image:
-    //         'https://globalnews.ca/wp-content/uploads/2020/02/22618186.jpg?quality=85&strip=all',
-    // },
-    // {
-    //     id: 10,
-    //     name: 'Байгудинова Э М',
-    //     department: 'Отдел маркетинга',
-    //     date: '25.05',
-    //     image: '',
-    // },
-    // {
-    //     id: 11,
-    //     name: 'Байгудинова Э М',
-    //     department: 'Отдел маркетинга',
-    //     date: '25.05',
-    //     image:
-    //         'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
-    // },
-    // {
-    //     id: 12,
-    //     name: 'Байгудинова Э М',
-    //     department: 'Отдел маркетинга',
-    //     date: '25.05',
-    //     image:
-    //         'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
-    // },
+    {
+        id: 7,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '01.06',
+        image: '',
+    },
+    {
+        id: 8,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '24.05',
+        image:
+            'https://upload.wikimedia.org/wikipedia/commons/f/f7/Anne-Marie_Rose_Nicholson%2C_2017_%28cropped%29.jpg',
+    },
+    {
+        id: 9,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://globalnews.ca/wp-content/uploads/2020/02/22618186.jpg?quality=85&strip=all',
+    },
+    {
+        id: 10,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image: '',
+    },
+    {
+        id: 11,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 12,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 13,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 14,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 15,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 16,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
+    {
+        id: 17,
+        name: 'Байгудинова Э М',
+        department: 'Отдел маркетинга',
+        date: '02.06',
+        image:
+            'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
+    },
 ];
