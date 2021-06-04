@@ -1,6 +1,5 @@
 import React from "react";
 import Icon from 'arui-feather/icon/entity/person';
-import AccountDefault from 'arui-feather/icon/banking/account-default';
 import bpm from '../assets/images/tag-button.png';
 
 export const FULL_NAME = 'Фамилия Имя Отчетство тестируемого';
@@ -17,6 +16,11 @@ export const PROJECT = 'Проект';
 export const ROLE = 'Роль';
 export const PERCENTAGE = 'Процент участия';
 export const OWNER = 'PO/PM';
+
+// Переменные для стилей
+export const alfaBlue = "#0B1F35";
+export const solidGray = '#6D7986';
+
 
 export const EmployeeDataList = [
     {
@@ -91,7 +95,7 @@ export const EmployeeData = [
     {
         id: 1,
         name: 'Байгудинова Э М',
-        department: 'Отдел маркетинга',
+        department: 'Отдел цифровизации бизнеса',
         date: '24.05',
         image: '',
     },
@@ -167,32 +171,32 @@ export const EmployeeData = [
     {
         id: 11,
         name: 'Байгудинова Э М',
-        department: 'Отдел маркетинга',
-        date: '02.06',
+        department: 'Отдел цифровизации бизнеса',
+        date: '04.06',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
     {
         id: 12,
         name: 'Байгудинова Э М',
-        department: 'Отдел маркетинга',
-        date: '02.06',
+        department: 'Отдел цифровизации бизнеса',
+        date: '04.06',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
     {
         id: 13,
         name: 'Байгудинова Э М',
-        department: 'Отдел маркетинга',
-        date: '02.06',
+        department: 'Отдел маркетинга погошения кредитов',
+        date: '04.06',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
     {
         id: 14,
         name: 'Байгудинова Э М',
-        department: 'Отдел маркетинга',
-        date: '02.06',
+        department: 'Отдел маркетинга погошения кредитов',
+        date: '05.06',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
@@ -200,7 +204,8 @@ export const EmployeeData = [
         id: 15,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
-        date: '02.06',
+        date: '03.06',
+        phoneNumber: '+7(707) 845 56 69',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
@@ -208,15 +213,17 @@ export const EmployeeData = [
         id: 16,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
-        date: '02.06',
+        date: '05.06',
+        phoneNumber: '+7(707) 845 56 69',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },
     {
         id: 17,
         name: 'Байгудинова Э М',
-        department: 'Отдел маркетинга',
-        date: '02.06',
+        department: 'Отдел маркетинга погошения кредитов',
+        date: '03.06',
+        phoneNumber: '+7(707) 845 56 69',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },

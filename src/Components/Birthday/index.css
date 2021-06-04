@@ -19,7 +19,6 @@ body {
 }
 
 .person {
-    margin-bottom: 2%;
     border: 1px solid #c6c6c6;
     border-radius: 10px;
     font-size: 16px;
@@ -27,12 +26,13 @@ body {
     position: relative;
     column-gap: 0.75rem;
     flex: 0 1 calc(100% / 3 - 15px);
-    align-items: center;
     box-shadow: 0 0 5px #c6c6c6;
     max-width: 370px;
-    height: 80px;
-    padding-left: 20px;
+    height: 110px;
+    padding-top: 15px;
+    padding-left: 15px;
     margin-right: 20px;
+    margin-bottom: 2%;
 }
 
 .avatar {
@@ -44,8 +44,8 @@ body {
 
 .bubbles {
     position: absolute;
-    top: 61%;
-    left: 78%;
+    top: 62%;
+    left: 77.2%;
     transform: translate(0, -65%);
 }
 
@@ -53,7 +53,7 @@ body {
     display: flex;
 }
 
-.text{
+.text {
     display: flex;
     align-items: center;
     margin-left: 50px;
@@ -61,4 +61,12 @@ body {
     font-style: italic;
     color: #0B1F35;
     opacity: 82%;
+}
+
+.department {
+    width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
 }
