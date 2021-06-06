@@ -12,7 +12,6 @@ export function formatDate(date) {
 // Вычисляет когда день рождения
 export function dateOfBirth(date) {
     const today = new Date()
-    console.log(Number((formatDate(today)) + 1));
     if (Number(formatDate(today)) === Number(date)) {
         return 'Сегодня день рождения';
     } else if (Number((Number(formatDate(today)) - 1).toFixed(2)) === Number(date)) {

@@ -6,9 +6,9 @@ import {Component} from "react";
 export default class BirthdayBlock extends Component {
     render() {
         return (
-            <div className='birthdayBlock'>
+            <div>
                 <Heading size='m'>Дни рождения сотрудников</Heading>
-                <Person />
+                <Person/>
             </div>
         );
     }

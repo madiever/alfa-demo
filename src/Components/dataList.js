@@ -96,14 +96,14 @@ export const EmployeeData = [
         id: 1,
         name: 'Байгудинова Э М',
         department: 'Отдел цифровизации бизнеса',
-        date: '24.05',
+        date: '06.06',
         image: '',
     },
     {
         id: 2,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
-        date: '24.05',
+        date: '06.06',
         image:
             'https://upload.wikimedia.org/wikipedia/commons/f/f7/Anne-Marie_Rose_Nicholson%2C_2017_%28cropped%29.jpg',
     },
@@ -111,7 +111,7 @@ export const EmployeeData = [
         id: 3,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
-        date: '24.05',
+        date: '06.06',
         image:
             'https://globalnews.ca/wp-content/uploads/2020/02/22618186.jpg?quality=85&strip=all',
     },
@@ -119,14 +119,14 @@ export const EmployeeData = [
         id: 4,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
-        date: '25.05',
+        date: '06.06',
         image: '',
     },
     {
         id: 5,
         name: 'Байгудинова Э М',
         department: 'Отдел маркетинга',
-        date: '25.05',
+        date: '06.06',
         image:
             'https://prdaficalmjediwestussa.blob.core.windows.net/images/2019/06/0047_2019_LAA_DenzelWashington.jpg',
     },

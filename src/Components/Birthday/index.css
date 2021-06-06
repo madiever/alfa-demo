@@ -5,27 +5,34 @@ body {
     font-size: 0.875rem;
 }
 
-.birthdayBlock {
+.carousel {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    max-width: 1200px;
+    align-items: center;
 }
 
-.container h3 {
-    font-weight: normal;
-    text-transform: none;
-    margin-bottom: 2rem;
+.button {
+    cursor: pointer;
+}
+
+.arrayOfPerson {
+    justify-content: start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    display: flex;
+    flex: 0 1 calc(100%);
+
 }
 
 .person {
     border: 1px solid #c6c6c6;
     border-radius: 10px;
     font-size: 16px;
-    display: flex;
     position: relative;
-    column-gap: 0.75rem;
+    display: flex;
     flex: 0 1 calc(100% / 3 - 15px);
+    column-gap: 0.75rem;
     box-shadow: 0 0 5px #c6c6c6;
     max-width: 370px;
     height: 110px;
@@ -33,6 +40,12 @@ body {
     padding-left: 15px;
     margin-right: 20px;
     margin-bottom: 2%;
+}
+
+.container h3 {
+    font-weight: normal;
+    text-transform: none;
+    margin-bottom: 2rem;
 }
 
 .avatar {
